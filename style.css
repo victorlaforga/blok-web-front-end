@@ -1,0 +1,151 @@
+@font-face {
+    src: url('./assets/DINPro.otf');
+    font-family: 'Din';
+    font-style: normal;
+}
+
+@font-face {
+    src: url('./assets/DINPro-Bold.otf');
+    font-family: 'Din-Bold';
+    font-style: normal;
+}
+
+@font-face {
+    src: url('./assets/DINPro-Black.otf');
+    font-family: 'Din-Black';
+    font-style: normal;
+}
+
+@font-face {
+    src: url('./assets/DINPro-Light.otf');
+    font-family: 'Din-Light';
+    font-style: normal;
+}
+body {
+    background-color: #fff;
+    margin: 0 auto;
+    color: hsla(0, 0%, 0%, 0.8);
+    font-family: 'Din';
+    font-weight: normal;
+    word-wrap: break-word;
+    font-kerning: normal;
+  }
+nav {
+    display: none;
+}
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header article {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+header>article>img {
+    height: 25px;
+    margin-top: 25px;
+}
+
+main section:nth-of-type(1) {
+    height: 390px;
+    width: 100%;
+    margin-top: -1px;
+    background-image: url('./images/Headers_1140x390px.jpg');
+    background-size: cover;
+}
+
+main section:nth-of-type(1) img {
+    min-width: 50px;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 75px;
+   
+}
+main > section:nth-of-type(1) > article {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+main>section:nth-of-type(1)>article>h1 {
+
+    color: white;
+    font-family: "Din-Light";
+    font-size: 34px;
+    line-height: 48px;
+    font-weight: 100;
+ 
+    margin: 100px auto 0px auto;
+}
+
+main>section:nth-of-type(2) {
+    background: rgba(0, 30, 80, 0.1);
+}
+
+main>section:nth-of-type(2)>article:nth-of-type(1) {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 50px 0px;
+}
+
+main>section:nth-of-type(2)>article:nth-of-type(1)>article:nth-of-type(1) {
+    font-family: "Din-Light";
+    max-width: 485px;
+    min-width: 300px;
+    margin-right: 40px;
+    line-height: 24px;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    font-family: "Din-Light";
+}
+
+main>section:nth-of-type(2)>article:nth-of-type(1)>article:nth-of-type(1)>p {
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+
+main>section:nth-of-type(2)>article:nth-of-type(1)>article:nth-of-type(1)>h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Din-Bold";
+}
+
+main>section:nth-of-type(2)>article:nth-of-type(1)>article:nth-of-type(1) span {
+    font-family: "Din-Bold";
+}
+
+main > section:nth-child(2) > article > article:nth-child(1) > h1 > span:nth-child(3) {
+    color: #ff7300;
+
+}
+
+
+main>section:nth-of-type(2)>article:nth-of-type(1)>article:nth-of-type(1)>p>span {
+    text-transform: uppercase;
+}
+
+main>section:nth-of-type(2)>article:nth-of-type(1)>article:nth-of-type(1)>article:nth-of-type(2)>p{
+    margin: 15px auto;
+}
+
+main > section:nth-child(2) > article > article:nth-child(1) > article:nth-child(3) > h2 {
+    font-size: 18px;
+}
+
+main > section:nth-child(2) > article > article:nth-child(2) {
+    background-color: white;
+    padding: 30px;
+border-radius: 20px;
+}
+
+main > section:nth-child(2) > article > article:nth-child(2) > article:nth-child(1) > img {
+    width: -webkit-fill-available;
+}
+main > section:nth-child(2) > article > article:nth-child(2) > article:nth-child(1) > article > img {
+    margin: 10px 10px 0px 0px;
+}
