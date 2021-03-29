@@ -183,6 +183,9 @@ main > section:nth-child(2) > article > article:nth-child(2) > article:nth-child
     main>section:nth-of-type(2)>article:nth-of-type(1) {
         flex-direction: column;
     }
+    main section:nth-of-type(1) {
+        background-position-x: 60%;
+    }
     main>section:nth-of-type(2)>article:nth-of-type(1)>article:nth-of-type(1) {
         max-width: 100%;
     }
@@ -198,3 +201,44 @@ main > section:nth-child(2) > article > article:nth-child(2) > article:nth-child
         margin-right: 0;
     }
 }
+
+footer {
+    
+    width: 100%;
+    background-image: linear-gradient(to right,
+        rgba(0, 30, 80, 0.94),
+        rgba(0, 30, 80, 0.94)),
+      url('../images/beeld\ foooter.svg') !important;
+    background-position-x: center;
+}
+    footer > article:nth-of-type(1) {
+      display: flex;
+      justify-content: center;
+      width: 60%;
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+    footer > article:nth-of-type(1) > article {
+        display: flex;
+        flex-direction: column;
+        margin: 25px auto;
+        height: fit-content;
+    }
+     
+    footer > article:nth-of-type(1) > article a      h3 {
+            font-family: 'Din-Bold';
+            text-transform: uppercase;
+            color: white;
+            font-size: 12px;
+            line-height: 24px;
+            text-decoration: none;
+          }
+        
+  
+       footer a {
+          color: white;
+          font-size: 12px;
+          text-decoration: none;
+          line-height: 24px;
+        }
+      
